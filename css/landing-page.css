@@ -3,9 +3,14 @@ body, html {
   height: 100%;
 }
 
-body, h1, h2, h3, h4, h5, h6, p, li, dt, dd {
+body, p, li, dd {
   font-family: "ヒラギノ角ゴ ProN W3", Meiryo, "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-weight: 700;
+}
+
+h1, h2, h3, h4, h5, h6, dt {
+  font-family: "ヒラギノ角ゴ ProN W6", Meiryo, "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-weight: bold;
 }
 
 .intro-header {
