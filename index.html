@@ -1,63 +1,194 @@
-<!doctype html>
-<html>
+<!DOCTYPE html>
+<html lang="ja">
   <head>
-    <meta charset="UTF-8">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
     <title>AHEAD Sports Engineering, LLC.</title>
-    <style>
-body {
-  font-family: Helvetica;
-  margin: 0;
-  padding: 0;
-  width:100%;
-  height:100%;
-}
-
-#header-fixed {
-  position: fixed;
-  text-align: center;
-  top: 40%;
-  left: 0px;
-  width: 100%;
-  height: 140px;
-}
-
-h1 {
-  font-size: 60px;
-  line-height: 1em;
-  margin: 0
-  padding: 0
-  font-weight: bold;
-  letter-spacing: -1px;
-}
-
-p {
-  margin-top: 10%;
-  font-size: 20px;
-
-  animation: fadeIn 4s ease 0s 1 normal;
-  -webkit-animation: fadeIn 4s 0s 1 normal;
-}
-
-body {
-  animation: fadeIn 3s ease 0s 1 normal;
-  -webkit-animation: fadeIn 3s ease 0s 1 normal;
-}
-
-@keyframes fadeIn {
-  0% {opacity: 0}
-  100% {opacity: 1}
-}
-
-@-webkit-keyframes fadeIn {
-  0% {opacity: 0}
-  100% {opacity: 1}
-}
-</style>
+    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <link href="vendor/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Lato:300,400,700,300italic,400italic,700italic" rel="stylesheet" type="text/css">
+    <!-- Custom styles for this template -->
+    <link href="css/landing-page.css" rel="stylesheet">
   </head>
   <body>
-    <div id="header-fixed">
-    <img src="images/ahead-sports-engineering-llc.png" width="800" height="110" />
-    <p>WE'RE COMMING SOON...</p>
-    </div>
+    <!-- Navigation -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
+      <div class="container">
+        <a class="navbar-brand" href="#"><img src="img/logo.png" width="300" alt="AHEAD Sports Engineering, LLC." style+"margin: 0; padding: 0;"/></a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarResponsive">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item">
+              <a class="nav-link" href="#projects">Projects</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#about">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#contact">Contact</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <!-- Header -->
+    <header class="intro-header">
+      <div class="container">
+        <div class="intro-message">
+          <h1>Science × Sports</h1>
+          <h3>計算科学による競技パフォーマンスの最大化</h3>
+          <hr class="intro-divider">
+          <ul class="list-inline intro-social-buttons">
+            <li class="list-inline-item">
+              <a href="https://www.facebook.com/AheadSportsEngineering/" class="btn btn-secondary btn-lg">
+                <i class="fa fa-facebook fa-fw"></i>
+                <span class="network-name">Facebook</span>
+              </a>
+            </li>
+            <li class="list-inline-item">
+              <a href="https://twitter.com/AHEAD_SPORTS/" class="btn btn-secondary btn-lg">
+                <i class="fa fa-twitter fa-fw"></i>
+                <span class="network-name">Twitter</span>
+              </a>
+            </li>
+            <li class="list-inline-item">
+              <a href="https://www.instagram.com/AHEAD_SPORTS/" class="btn btn-secondary btn-lg">
+                <i class="fa fa-instagram fa-fw"></i>
+                <span class="network-name">Instagram</span>
+              </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </header>
+
+    <section class="content-section-a" id="projects">
+      <div class="container">
+        <div class="row">
+
+          <div class="col-lg-5 ml-auto">
+            <hr class="section-heading-spacer">
+            <div class="clearfix"></div>
+            <h2 class="section-heading">World Human Powered Speed Challenge</h2>
+            <p class="lead">人力世界最速をめざすWorld Human Powered Speed Challenge(ネバダ州バトルマウンテン)に日本から参戦するTeam Super Ketta。<br />物理モデル・競技環境モデルおよび選手の疲労モデル構築と、各モデルと遺伝的アルゴリズムによる最速ペース配分の提案。トレーニング用シミュレーター開発・提供。</p>
+          </div>
+          <div class="col-lg-5 mr-auto">
+            <img class="img-fluid" src="img/team-super-ketta.jpg" alt="">
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="content-section-b" id="">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-5 mr-auto order-lg-2">
+            <div class="clearfix"></div>
+            <h2 class="section-heading">自転車ロード個人タイムトライアル</h2>
+            <p class="lead">自転車ロード個人タイムトライアル 2012, 2016, 2017年日本選手権王者であるチームブリジストンアンカーの西薗良太選手。<br />環境モデルおよび選手の疲労モデル構築と、遺伝的アルゴリズムによる最適・最速ペース配分の提案。</p>
+          </div>
+          <div class="col-lg-5 ml-auto order-lg-1">
+            <img class="img-fluid" src="img/ryota-nisizono.jpg" alt="写真がイマイチだからすぐ変更するべし">
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="content-section-a" id="about">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-5 ml-auto">
+            <hr class="section-heading-spacer">
+            <div class="clearfix"></div>
+            <h2 class="section-heading">AHEAD Sports Engineering, LLC.について</h2>
+            <p class="lead">AHEAD Sports Engineeringは競技とアスリートの数値モデル化、計測、シミュレーション、数理最適化を通じて、アスリートのパフォーマンスを最大化します。</p>
+  <dl>
+    <dt>名称</dt><dd>合同会社アヘッドスポーツエンジニアリング<br />AHEAD Sports Engineering, LLC.</dd>
+    <dt>設立</dt><dd>２０１７年９月４日</dd>
+    <dt>代表社員</dt><dd>小山浩之</dd>
+    <dt>本店</dt><dd>東京都練馬区</dd>
+    <dt>業務内容</dt><dd>
+  <ul>
+    <li>物理モデルと疲労プロフィールを用いたシミュレーションと最速ペース探索・提案</li>
+    <li>リハーサル・トレーニング用シミュレーター開発</li>
+    <li>競技分析</li>
+    <li>競技・トレーニング用計測機器開発</li>
+  </ul>
+</dd>
+  </dl>
+          </div>
+          <div class="col-lg-5 mr-auto ">
+<!--            <img class="img-fluid" src="img/phones.png" alt=""> -->
+          </div>
+        </div>
+
+      </div>
+      <!-- /.container -->
+
+    </section>
+
+    <aside class="banner">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-6 my-auto">
+            <h2 id="contact">Contact:</h2>
+          </div>
+          <div class="col-lg-6 my-auto">
+            <ul class="list-inline banner-social-buttons">
+              <li class="list-inline-item">
+                <a href="https://www.facebook.com/AheadSportsEngineering/" class="btn btn-secondary btn-lg">
+                  <i class="fa fa-facebook fa-fw"></i>
+                  <span class="network-name">Facebook</span>
+                </a>
+              </li>
+              <li class="list-inline-item">
+                <a href="https://twitter.com/AHEAD_SPORTS/" class="btn btn-secondary btn-lg">
+                  <i class="fa fa-twitter fa-fw"></i>
+                  <span class="network-name">Twitter</span>
+                </a>
+              </li>
+              <li class="list-inline-item">
+                <a href="https://www.instagram.com/AHEAD_SPORTS/" class="btn btn-secondary btn-lg">
+                  <i class="fa fa-instagram fa-fw"></i>
+                  <span class="network-name">Instagram</span>
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </aside>
+
+    <footer>
+      <div class="container">
+        <ul class="list-inline">
+          <li class="list-inline-item">
+            <a href="#">Home</a>
+          </li>
+          <li class="footer-menu-divider list-inline-item">&sdot;</li>
+          <li class="list-inline-item">
+            <a href="#projects">Projects</a>
+          </li>
+          <li class="footer-menu-divider list-inline-item">&sdot;</li>
+          <li class="list-inline-item">
+            <a href="#about">About</a>
+          </li>
+          <li class="footer-menu-divider list-inline-item">&sdot;</li>
+          <li class="list-inline-item">
+            <a href="#contact">Contact</a>
+          </li>
+        </ul>
+        <p class="copyright text-muted small">Copyright &copy; AHEAD Sports Engineering, LLC. All Rights Reserved</p>
+      </div>
+    </footer>
+
+<!--    <script src="vendor/jquery/jquery.min.js"></script> -->
+    <script src="vendor/popper/popper.min.js"></script>
+    <script src="vendor/bootstrap/js/bootstrap.min.js"></script>
   </body>
-</body>
+</html>
